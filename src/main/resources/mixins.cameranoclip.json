@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.7",
+  "package": "net.jonuuh.cameranoclip.mixins",
+  "refmap": "mixins.cameranoclip.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MixinEntityRenderer"
+  ]
+}

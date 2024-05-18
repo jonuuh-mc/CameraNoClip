@@ -1,0 +1,16 @@
+[
+    {
+        "modid": "cameranoclip",
+        "name": "",
+        "description": "No-clip camera in 2nd/3rd person",
+        "version": "${version}",
+        "mcversion": "${mcversion}",
+        "url": "",
+        "updateUrl": "",
+        "authorList": ["jonuuh"],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]
