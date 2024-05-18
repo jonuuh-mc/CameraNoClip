@@ -17,7 +17,7 @@ plugins {
 apply plugin: "net.minecraftforge.gradle.forge"
 apply plugin: 'org.spongepowered.mixin'
 
-version = "1.0.0"
+version = "1.0.1"
 group = "net.jonuuh.cameranoclip"
 archivesBaseName = "CameraNoClip-1.8.9"
 
@@ -94,7 +94,7 @@ reobf {
  */
 jar {
     manifest.attributes(
-            "FMLCorePlugin": "net.jonuuh.cameranoclip.mixins.MixinLoader",
+            "FMLCorePlugin": "net.jonuuh.cameranoclip.mixins.CameraNoClipMixinLoader",
             "ForceLoadAsMod": true,
             "TweakOrder": 0,
             "ModSide": "CLIENT",

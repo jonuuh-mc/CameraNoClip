@@ -1,7 +1,7 @@
 [
     {
         "modid": "cameranoclip",
-        "name": "",
+        "name": "CameraNoClip",
         "description": "No-clip camera in 2nd/3rd person",
         "version": "${version}",
         "mcversion": "${mcversion}",

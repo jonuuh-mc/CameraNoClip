@@ -7,9 +7,10 @@ import org.spongepowered.asm.mixin.Mixins;
 
 import java.util.Map;
 
-public class MixinLoader implements IFMLLoadingPlugin
+@IFMLLoadingPlugin.MCVersion("1.8.9")
+public class CameraNoClipMixinLoader implements IFMLLoadingPlugin
 {
-    public MixinLoader()
+    public CameraNoClipMixinLoader()
     {
         MixinBootstrap.init();
         Mixins.addConfiguration("mixins.cameranoclip.json");

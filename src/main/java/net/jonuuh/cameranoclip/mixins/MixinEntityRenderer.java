@@ -14,14 +14,6 @@ public abstract class MixinEntityRenderer
     @Redirect(method = "orientCamera", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/multiplayer/WorldClient;rayTraceBlocks(Lnet/minecraft/util/Vec3;Lnet/minecraft/util/Vec3;)Lnet/minecraft/util/MovingObjectPosition;"))
     public MovingObjectPosition redirect(WorldClient instance, Vec3 vec0, Vec3 vec1)
     {
-//        System.out.println("redirecting...");
         return null;
     }
-
-//    @ModifyVariable(method = "orientCamera", at = @At("LOAD"), ordinal = 0)
-//    private MovingObjectPosition modifyVar(MovingObjectPosition position)
-//    {
-//        System.out.println("modifying..");
-//        return null;
-//    }
 }
